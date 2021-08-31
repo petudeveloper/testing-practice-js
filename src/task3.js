@@ -4,6 +4,7 @@ class Calculator {
         args.forEach( (arg) => sum += arg );
         return sum;
     }
+
     static subtract = (a, b) => a - b ;
 
     static multiply = (...args) => {
@@ -11,6 +12,7 @@ class Calculator {
         args.forEach( (arg) => mult *= arg );
         return mult;
     }
+    
     static divide = (a, b) => a / b ;
 }
 
